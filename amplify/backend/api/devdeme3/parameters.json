@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "devdeme3",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authdevdeme35bd4d356",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
